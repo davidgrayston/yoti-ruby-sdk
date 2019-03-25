@@ -3,6 +3,7 @@ rvm:
   - 2.4
 
 before_script:
+  - export TZ=UTC
   - bundle install
 
 script:
